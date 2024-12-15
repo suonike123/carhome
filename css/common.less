@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  min-width: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #e4f8ff, #fff);
+}
+
+// tabbar样式
+.tabbar {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #ffff;
+  padding: 0.3rem 0;
+
+  .tabbar_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &.active {
+      .icon {
+        color: #0055FF;
+      }
+
+      .label {
+        color: #0055FF;
+
+        a {
+          color: #0055FF;
+        }
+      }
+    }
+
+    .icon {
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+
+    .label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #828ca0;
+
+      a {
+        color: #828ca0;
+      }
+    }
+  }
+}
+
+
+/* 设置滚动条宽度 */
+::-webkit-scrollbar {
+  width: 20px;
+  // /* 对于垂直滚动条 */
+  height: 1px;
+  /* 对于水平滚动条 */
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track {
+  background: #fff;
+  /* 轨道背景颜色 */
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  background: #fff !important;
+  /* 滑块颜色 */
+}

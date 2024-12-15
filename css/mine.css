@@ -1,0 +1,315 @@
+.mine_container {
+  width: 100%;
+  height: 100vh;
+  padding: 1rem 1rem 2rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background-color: #f8f9fb;
+}
+.mine_container .top_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mine_container .top_bar .left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mine_container .top_bar .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mine_container .top_bar .right .icon {
+  margin-left: 1rem;
+}
+.mine_container .user_info {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mine_container .user_info .left {
+  display: flex;
+  align-items: center;
+}
+.mine_container .user_info .left .header {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+}
+.mine_container .user_info .left .left_r .name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.mine_container .user_info .left .left_r .center {
+  display: flex;
+  align-items: center;
+  margin: 0.3rem 0;
+}
+.mine_container .user_info .left .left_r .center span {
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  color: #999;
+  padding: 0 0.4rem;
+  margin-right: 0.2rem;
+}
+.mine_container .user_info .right {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  font-size: 0.9rem;
+}
+.mine_container .user_info .right .icon {
+  margin-top: 0.1rem;
+  margin-right: 0.2rem;
+}
+.mine_container .domain {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  background-color: #fff;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+}
+.mine_container .domain .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mine_container .domain .item .label {
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}
+.mine_container .tips {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.5rem;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 0.5rem 0;
+}
+.mine_container .tips .tip {
+  font-style: italic;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+.mine_container .tips .desc {
+  font-size: 0.85rem;
+  color: #333;
+}
+.mine_container .service_wrapper {
+  width: 100%;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius: 0.75rem;
+  background: linear-gradient(to bottom, #ecf9fd, #fff);
+  border: 1px solid #f7f7f7;
+}
+.mine_container .service_wrapper .title_wrapper {
+  display: flex;
+  align-items: center;
+}
+.mine_container .service_wrapper .title_wrapper .title {
+  margin-right: 1rem;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+.mine_container .service_wrapper .title_wrapper .weather {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #999;
+}
+.mine_container .service_wrapper .title_wrapper .weather .address {
+  margin-right: 0.5rem;
+}
+.mine_container .service_wrapper .title_wrapper .weather .qing {
+  margin: 0 0.5rem;
+}
+.mine_container .service_wrapper .service_content {
+  background-color: #fff;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.mine_container .service_wrapper .service_content .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e3f7fe;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.mine_container .service_wrapper .service_content .top .left {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.mine_container .service_wrapper .service_content .top .left .mask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.mine_container .service_wrapper .service_content .top .left .car_img {
+  width: 3.5rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.mine_container .service_wrapper .service_content .top .left .left_r {
+  display: flex;
+  flex-direction: column;
+}
+.mine_container .service_wrapper .service_content .top .left .left_r .t {
+  font-weight: 600;
+  font-size: 0.96rem;
+  margin-bottom: 0.25rem;
+}
+.mine_container .service_wrapper .service_content .top .left .left_r .b {
+  font-size: 0.75rem;
+  color: #999;
+}
+.mine_container .service_wrapper .service_content .top .left .left_r .b .special {
+  color: #f69b07;
+}
+.mine_container .service_wrapper .service_content .top .right {
+  display: flex;
+  align-items: center;
+  background-color: #32acfc;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.6rem;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+.mine_container .service_wrapper .convenient {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 0.6rem;
+  row-gap: 1rem;
+  margin-top: 1rem;
+}
+.mine_container .service_wrapper .convenient .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mine_container .service_wrapper .convenient .item .label {
+  font-size: 0.65rem;
+  color: #333;
+  margin-top: 0.75rem;
+}
+.mine_container .certificate {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  height: 7.5rem;
+  padding: 1rem 0.5rem;
+  box-sizing: border-box;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+}
+.mine_container .certificate .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  margin-right: 1rem;
+}
+.mine_container .certificate .left .top {
+  font-weight: 600;
+}
+.mine_container .certificate .left .center {
+  font-size: 0.75rem;
+  color: #666;
+  margin: 0.25rem 0 0.4rem;
+}
+.mine_container .certificate .left .btn {
+  width: 4.5rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  background: linear-gradient(to right, #f08c3e, #f66406);
+  border-radius: 0.25rem;
+  font-size: 0.85rem;
+  text-align: center;
+  color: #fff;
+}
+.mine_container .certificate .right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.mine_container .certificate .right .item {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: url('../imgs/mine/lq_bg.png') no-repeat center;
+  background-size: 100% 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.mine_container .certificate .right .item .money {
+  color: #f95e08;
+  font-weight: 600;
+}
+.mine_container .certificate .right .item .desc {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0.15rem 0;
+}
+.mine_container .certificate .right .item .item_btn {
+  width: 80%;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  background-color: #ffe4d3;
+  text-align: center;
+  font-size: 0.85rem;
+  border-radius: 2rem;
+  color: #333;
+}
+.mine_container .low {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #ffe3d5, #fed5b0);
+  width: 100%;
+  height: 2.8rem;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+}
+.mine_container .low .l {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.15rem;
+}
+.mine_container .low .r {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #999;
+}
+.mine_container .low .r .desc {
+  margin-right: 0.25rem;
+}

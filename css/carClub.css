@@ -1,0 +1,112 @@
+.carclub_container {
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 2rem;
+}
+.carclub_container .top_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carclub_container .top_bar .icon.msg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.carclub_container .search_Wrapper {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin: 0.5rem auto;
+  border: 1px solid #a4d4f6;
+  border-radius: 2rem;
+  padding-left: 0.8rem;
+  height: 2rem;
+  background-color: #fff;
+}
+.carclub_container .search_Wrapper .search_ipt {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 100%;
+}
+.carclub_container .search_Wrapper .search_btn {
+  flex-shrink: 0;
+  width: 3.5rem;
+  height: 95%;
+  margin-right: 0.1rem;
+  padding: 0;
+  border: none;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #0192fd;
+}
+.carclub_container .list_title {
+  margin: 1.5rem 0;
+  font-weight: 600;
+}
+.carclub_container .car_list .car_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.carclub_container .car_list .car_item .left {
+  display: flex;
+  align-items: center;
+}
+.carclub_container .car_list .car_item .left .header {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.carclub_container .car_list .car_item .left .hz_name {
+  font-size: 0.9rem;
+  color: #666;
+}
+.carclub_container .car_list .car_item .left .l_r {
+  display: flex;
+  flex-direction: column;
+}
+.carclub_container .car_list .car_item .left .l_r .car_name {
+  display: flex;
+  align-items: center;
+}
+.carclub_container .car_list .car_item .left .l_r .car_name .name {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+.carclub_container .car_list .car_item .left .l_r .car_name .num {
+  font-size: 0.8rem;
+  color: #999;
+}
+.carclub_container .car_list .car_item .left .l_r .hz {
+  display: flex;
+  align-items: center;
+  margin-top: 0.1rem;
+}
+.carclub_container .car_list .car_item .left .l_r .hz .hz_header {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+}
+.carclub_container .car_list .car_item .left .l_r .hz .tag {
+  margin-left: 0.3rem;
+  padding: 0.2rem;
+  background-color: #e4f0f7;
+  font-size: 0.5rem;
+  color: #49b3e4;
+  font-weight: 600;
+}
+.carclub_container .car_list .car_item .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem 0.6rem 0.3rem 0.3rem;
+  background-color: #008efb;
+  border-radius: 0.2rem;
+  color: #eee;
+  font-size: 0.85rem;
+}
